@@ -21,5 +21,5 @@ const Item = {
         db.run('DELETE FROM items WHERE id = ?', [id], callback);
     }
 };
-
+ 
 module.exports = Item;
