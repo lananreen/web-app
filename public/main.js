@@ -10,3 +10,4 @@ fetch('/items')
             </div>
         `).join('');
     });
+ 
