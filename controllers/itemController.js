@@ -4,7 +4,7 @@ exports.getAllItems = (req, res) => {
     Item.getAll((err, rows) => {
         if (err) return res.status(500).json({ error: err.message });
         res.render('index', { items: rows });
-    });
+    }); 
 };
 
 exports.addItem = (req, res) => {
